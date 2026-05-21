@@ -623,6 +623,38 @@ a {
     border-color: rgba(245, 177, 74, 0.35);
 }
 
+.ach-wide {
+    grid-column: 1 / -1;
+    min-height: 0;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px 28px;
+    padding: 22px 28px;
+}
+
+.ach-wide .ach-tag {
+    align-self: center;
+    margin: 0;
+}
+
+.ach-wide .ach-headline {
+    margin: 0;
+    flex: 0 0 auto;
+}
+
+.ach-wide .ach-body {
+    flex: 1 1 320px;
+    margin: 0;
+}
+
+.ach-wide .ach-foot {
+    margin: 0;
+    flex: 0 0 auto;
+    border-top: none;
+    padding-top: 0;
+}
+
 .ach-feature .ach-headline {
     color: var(--accent);
 }
